@@ -31,6 +31,11 @@ function age(){
     let result=document.getElementById("result");
 
     
-    result.innerHTML=`your age is ${getyear} and your motnth is ${getmonth} and your day is${getday}`
+    result.innerHTML=`your age is ${getyear} and your motnth is ${getmonth} and your day is${getday}`;
+      // to do input is empty after resault 
+document.getElementById("day").value = '';
+document.getElementById("month").value = '';
+document.getElementById("year").value = '';
+
 
 }
